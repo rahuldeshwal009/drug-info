@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ui/drug-info-app/',
+  base: '/drug-info',
   server: {
     host: true,
     strictPort: true,
