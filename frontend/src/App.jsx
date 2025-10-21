@@ -13,9 +13,9 @@ const App = () => {
   const fetchData = async () => {
     try {
       const [config, drugs, companies ] = await Promise.allSettled([
-        fetch(`${API_BASE}config`).then((res) => res.json()),
-        fetch(`${API_BASE}drugs`).then((res) => res.json()),
-        fetch(`${API_BASE}companies`).then((res) => res.json())
+        fetch(`${API_BASE}/config`).then((res) => res.json()),
+        fetch(`${API_BASE}/drugs`).then((res) => res.json()),
+        fetch(`${API_BASE}/companies`).then((res) => res.json())
       ]);
 
       console.log({ config, drugs, companies });
