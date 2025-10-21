@@ -10,7 +10,7 @@ export default defineConfig({
     strictPort: true,
     port: 8080,
     proxy: {
-      "/api": "http://localhost:4000",
+      "/api": "https://drug-info-7pz8.onrender.com",
     },
   },
   test: {
