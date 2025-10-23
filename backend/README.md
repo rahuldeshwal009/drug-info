@@ -29,3 +29,9 @@ It serves drug data from MongoDB Atlas and supports filtering by company name.
 | dotenv | Environment variables |
 | nodemon | Local development watcher |
 
+## Environment Variables
+
+To run this project, create a `.env` file in the root directory and add the following:
+
+MONGO_URI=mongodb+srv://mailboxrahul1_db_user:dvdzrS2HdlCAgYez@drugcluster.zwcutcy.mongodb.net/
+PORT=4000
